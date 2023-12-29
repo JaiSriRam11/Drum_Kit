@@ -9,12 +9,13 @@ var l = new Audio('sounds/Crash.mp3');
 
 // function mouseClick() 
 for (var i = 0; i < (document.querySelectorAll('button').length); i++)
-    document.querySelectorAll("button")[i].addEventListener('click', Character); 
+    document.querySelectorAll("button")[i].addEventListener('click', Character);
 function Character(character) {
     var currentKey = this.innerHTML;
     console.log(currentKey);
     playSound(currentKey);
-    animation(currentKey); }
+    animation(currentKey);
+}
 
 // function Keypress()
 document.addEventListener('keypress', button);
@@ -31,30 +32,30 @@ function playSound(audio) {
         case 'w':
             w.play();
             break;
-            case 'a':
-                a.play();
+        case 'a':
+            a.play();
             break;
-            case 's':
-                s.play();
+        case 's':
+            s.play();
             break;
-            case 'd':
-                d.play();
+        case 'd':
+            d.play();
             break;
-            case 'j':
-                j.play();
+        case 'j':
+            j.play();
             break;
-            case 'k':
-                k.play();
+        case 'k':
+            k.play();
             break;
-            case 'l':
-                l.play();
-                break;
+        case 'l':
+            l.play();
+            break;
     }
-    
+
 }
 
 function animation(animate) {
     var pressedButton = document.querySelector("." + animate);
     pressedButton.classList.add('pressed');
-    setTimeout(function () { pressedButton.classList.remove('pressed')}, 100);   
+    setTimeout(function () { pressedButton.classList.remove('pressed') }, 100);
 }

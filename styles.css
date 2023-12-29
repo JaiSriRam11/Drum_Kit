@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    background-image: url("./images/BGwholekit2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 5rem;
+    padding: 1em;
+    color: rgb(8, 0, 1);
+    font-weight: bolder;
+    text-shadow: 5px 2px white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.drum {
+    height: 2.5em;
+    width: 2.5em;
+    border: 10px solid rgb(0, 7, 8);
+    border-radius: 0.4em;
+    font-size: 5rem;
+    color: rgb(192, 27, 35);
+    text-shadow: 5px 0 yellow;
+    font-weight: 15px;
+    box-shadow: 2px 2px 1px 2px yellow;
+}
+
+.High-Tom {
+    background-image: url(images/High-Tom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Medium-Tom {
+    background-image: url(images/Medium_Tom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Floor-Tom {
+    background-image: url(images/Floor-Tom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.snare {
+    background-image: url(images/Snare.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bass {
+    background-image: url(images/Bass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.crash {
+    background-image: url(images/Crash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hats {
+    background-image: url(images/HI-Hats.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pressed { 
+    box-shadow: 0 3px 4px 0 grey;
+    opacity: 0.5;
+}
